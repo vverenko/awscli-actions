@@ -1,0 +1,9 @@
+name: "AWS CLI Action"
+description: "AWS CLI v2 for GitHub Actions"
+author: vverenko
+branding:
+  icon: "cloud"
+  color: "orange"
+runs:
+  using: docker
+  image: Dockerfile
